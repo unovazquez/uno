@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcomeuno');
 });
 
+
 Route::auth();
+
 
 Route::get('/home', 'HomeController@index');

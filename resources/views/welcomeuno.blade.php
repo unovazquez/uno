@@ -110,8 +110,12 @@
                     <div id="weWant">EXPECT US</div>
                 </h2>
                 <div align="center">
+                @if(!\Auth::check())
                   <a class="pointer myButton"  href="{{ url('/register') }}">Register</a>
                   <a class="pointer myButton" href="{{ url('/login') }}">Login</a>
+                @else
+                  <h4>Welcome {{\Auth::user()->name}} , you are now logged in. <br>{{\Auth::user()->email}}</h4>
+                @endif
                 </div>
             </div>
         </div>
