@@ -53,7 +53,7 @@ h1 {
   font-size: 80px;
   margin: 0;
   padding: 0;
-  line-height: .8em;
+  line-height: 125px;
 }
 
 h3 {
@@ -288,6 +288,17 @@ h3 {
   width: 100%;
 }
 
+.inputContacto {
+  background: none !important;
+  font-weight: 800;
+  border-radius: 0 !important;
+  border: none !important;
+  color: #FF80B2 !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #FF80B2 !important;
+  width: 100% !important;
+}
+
 #textContacto {
     background: none;
     box-shadow: none;
@@ -331,6 +342,8 @@ label {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding: 8px;
+  border: 1px solid #FF80B2;
 }
 
 textarea:focus, input:focus{
@@ -343,6 +356,21 @@ textarea:focus, input:focus{
   
 }
 
+.pink {
+  color: #FF80B2 !important;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #FF80B2 !important;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
 
 
 
@@ -396,3 +424,10 @@ textarea:focus, input:focus{
 
 // XXLarge screens
 @media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
+.loginhoViews {
+ margin-right: auto;
+ margin-left: auto;
+ margin: 80px;
+}
