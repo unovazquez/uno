@@ -337,6 +337,17 @@ textarea:focus, input:focus{
     outline: 0;
 }
 
+
+.blackBg {
+  background: black;
+  
+}
+
+
+
+
+
+
 // Small screens
 @media only screen { } /* Define mobile styles */
 

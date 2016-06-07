@@ -12,7 +12,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>entro</title>
+    <title>uno</title>
 
 
 
@@ -116,10 +116,10 @@
             </div>
         </div>
         <div class="footerOne">
-        <div><img src="img/unoxLogo.png" alt="" /></div>
-            <a class="pointer" href="" target="_blank">vine</a>
-            <a class="pointer" href="https://twitter.com/entrolopitecus" target="_blank">twitter</a>
-            <a class="pointer myButton"  target="_blank" href="#">instagram</a>
+        
+            
+            <a class="pointer" href="https://twitter.com/entrolopitecus" target="_blank"><img src="img/unoxLogo.png" alt="" /></a>
+            
         </div>
       
     </div>

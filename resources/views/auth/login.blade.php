@@ -1,7 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+
+<style type="text/css">
+    
+
+.blackBg {
+  background: black;
+  
+}
+    
+</style>
+
+
+<div class="container blackBg">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
@@ -10,7 +22,6 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
 
-                        <h1>PERROO</h1>
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
