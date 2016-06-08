@@ -19,6 +19,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png" />
 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
     <link href='css/all.css' rel='stylesheet' type='text/css'>
     <link href='css/style.css' rel='stylesheet' type='text/css'>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
@@ -56,6 +58,163 @@
           </form>
 
 
+
+
+</div>
+
+<div id="loginArea">
+  <div class="container blackBg">
+   <div class="logo">
+     <img class="loginhoViews" src="img/unoxxLogo.png" alt="" />
+ </div>
+  <div class="loginClose">x</div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="">
+                
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                        {{ csrf_field() }}
+
+
+                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control inputContacto" name="email" value="{{ old('email') }}">
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                            <label for="password" class="col-md-4 control-label">Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control inputContacto" name="password">
+
+                                @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="sendBtn">
+                                    Login
+                                </button>
+
+                                <a class="btn btn-link pink" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="registerArea">
+  <div class="container">
+   <div class="logo">
+     <img class="loginhoViews" src="img/unoxxLogo.png" alt="" />
+ </div>
+  <div class="registerClose">x</div>
+      <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+              <div class="">
+                 
+                  <div class="panel-body">
+                      <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
+                          {{ csrf_field() }}
+
+                          <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                              <label for="name" class="col-md-4 control-label">Name</label>
+
+                              <div class="col-md-6">
+                                  <input  id="name" type="text" class="form-control inputContacto" name="name" value="{{ old('name') }}">
+
+                                  @if ($errors->has('name'))
+                                      <span class="help-block">
+                                          <strong>{{ $errors->first('name') }}</strong>
+                                      </span>
+                                  @endif
+                              </div>
+                          </div>
+
+                          <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                              <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+
+                              <div class="col-md-6">
+                                  <input id="email" type="email" class="form-control inputContacto" name="email" value="{{ old('email') }}">
+
+                                  @if ($errors->has('email'))
+                                      <span class="help-block">
+                                          <strong>{{ $errors->first('email') }}</strong>
+                                      </span>
+                                  @endif
+                              </div>
+                          </div>
+
+                          <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                              <label for="password" class="col-md-4 control-label">Password</label>
+
+                              <div class="col-md-6">
+                                  <input id="password" type="password" class="form-control inputContacto" name="password">
+
+                                  @if ($errors->has('password'))
+                                      <span class="help-block">
+                                          <strong>{{ $errors->first('password') }}</strong>
+                                      </span>
+                                  @endif
+                              </div>
+                          </div>
+
+                          <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
+                              <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+                              <div class="col-md-6">
+                                  <input id="password-confirm" type="password" class="form-control inputContacto" name="password_confirmation">
+
+                                  @if ($errors->has('password_confirmation'))
+                                      <span class="help-block">
+                                          <strong>{{ $errors->first('password_confirmation') }}</strong>
+                                      </span>
+                                  @endif
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <div class="col-md-6 col-md-offset-4">
+                                  <button type="submit" class="sendBtn">
+                                       Register
+                                  </button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 <body class="monsanto">
@@ -77,8 +236,22 @@
         <div class="ezqUL"></div>
         <div class="ezqDR"></div>
         <div class="ezqDL"></div>
-        <a href="javascript:void(0)" class="btn btn-default audioBtn" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()"><i id="stateicon" class="fa fa-play pointer"></i></a>
-        <div class="contacto pointer"><img src="img/unoxLogo.png" alt="" /> contact</div>
+        <a href="javascript:void(0)" class="audioBtn" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()"><i id="stateicon" class="fa fa-play pointer"></i></a>
+        <div class="contacto pointer">
+
+        <img src="img/unoxLogo.png" alt="" />
+
+
+        @if(!\Auth::check())
+                  <span class="contactoBtnX pointer"> contact </span>
+                  <span class="registerBtnX pointer"> register </span>
+                  <span class="loginBtnX pointer"> login </span>
+                          
+                @else
+                  <span class="contactoBtnX pointer"> register</span>
+                  <h4>Welcome {{\Auth::user()->name}} , you are now logged in. <br>{{\Auth::user()->email}}</h4>
+                @endif
+        </div>
 
         <div class="IntroText">
             <div class="logo">
@@ -110,12 +283,7 @@
                     <div id="weWant">EXPECT US</div>
                 </h2>
                 <div align="center">
-                @if(!\Auth::check())
-                  <a class="pointer myButton"  href="{{ url('/register') }}">Register</a>
-                  <a class="pointer myButton" href="{{ url('/login') }}">Login</a>
-                @else
-                  <h4>Welcome {{\Auth::user()->name}} , you are now logged in. <br>{{\Auth::user()->email}}</h4>
-                @endif
+                
                 </div>
             </div>
         </div>

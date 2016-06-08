@@ -175,11 +175,29 @@ $(function() {
   });
 });
 
-$(".contacto").click(function(){
+$(".contactoBtnX").click(function(){
    $("#contact").css({"left": "0px"});
 });
 
 $(".contactoClose").click(function(){
    $("#contact").css({"left": "-100%"});
 });
+
+$(".loginBtnX").click(function(){
+   $("#loginArea").css({"left": "0px"});
+});
+
+$(".loginClose").click(function(){
+   $("#loginArea").css({"left": "-100%"});
+});
+
+$(".registerBtnX").click(function(){
+   $("#registerArea").css({"left": "0px"});
+});
+
+$(".registerClose").click(function(){
+   $("#registerArea").css({"left": "-100%"});
+});
+
+
 new WOW().init();
