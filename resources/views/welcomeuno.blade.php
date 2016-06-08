@@ -248,7 +248,7 @@
                   <span class="loginBtnX pointer"> login </span>
                           
                 @else
-                  <span class="contactoBtnX pointer"> register</span>
+                  <span class="contactoBtnX pointer"> contact</span>
                   <h4>Welcome {{\Auth::user()->name}} , you are now logged in. <br>{{\Auth::user()->email}}</h4>
                 @endif
         </div>
