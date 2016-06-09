@@ -309,10 +309,16 @@ h3 {
     border: none;
     border-bottom: 1px solid #FF80B2;
     font-weight: 800;
-    color: white;
+    color: #FF80B2;
     width: 100%;
     background: black;
 }
+
+.picaOjos,
+.picaOjos a {
+    font-size: 25px;
+    color: #FF80B2;
+} 
 .formContacto {
     margin-top: 150px;
     margin-right: auto;

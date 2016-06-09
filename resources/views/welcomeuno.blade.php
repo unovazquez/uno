@@ -35,7 +35,9 @@
 </head>
 <div id="contact">
    <div class="contactoClose">x</div>
-
+     <div class="logo">
+       <img class="loginhoViews" src="img/unoxxLogo.png" alt="" />
+   </div>
   <form id="enviarMail" action="" class="formContacto">
             <div class="spaceContact">
               <label for="name">Name:</label>
@@ -362,9 +364,11 @@
  -->
     <div class="picaOjos">
         <div class="logoX">
-        <img src="img/unoxLogo.png" alt="" />
+        <span>be part of uno open government 
+          <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
+          <a class="pointer" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </span>
         </div>
-        
     </div>
 
     <script src="js/index.js"></script>
