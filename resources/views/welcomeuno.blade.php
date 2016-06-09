@@ -241,13 +241,13 @@
         <a href="javascript:void(0)" class="audioBtn" data-toggle="tooltip" title="Preview" onclick="aud_play_pause()"><i id="stateicon" class="fa fa-play pointer"></i></a>
         <div class="contacto pointer">
 
-        <img src="img/unoxLogo.png" alt="" />
+       <!--  <img class="logoMenu" src="img/unoxLogo.png" alt="" /> -->
 
 
         @if(!\Auth::check())
-                  <span class="contactoBtnX pointer"> contact </span>
-                  <span class="registerBtnX pointer"> register </span>
-                  <span class="loginBtnX pointer"> login </span>
+                  <div class="contactoBtnX pointer menuTxt"> contact </div>
+                  <div class="registerBtnX pointer menuTxt"> register </div>
+                  <div class="loginBtnX pointer menuTxt"> login </div>
                           
                 @else
                   <span class="contactoBtnX pointer"> contact</span>
@@ -290,9 +290,16 @@
             </div>
         </div>
         <div class="footerOne">
-        
             
-            <a class="pointer" href="https://twitter.com/entrolopitecus" target="_blank"><img src="img/unoxLogo.png" alt="" /></a>
+            <div class="bebas tone">UNOCYBERNETICPARLIAMENT</div>
+            <div class="bebas ttwo">OPENSOURCEDEVELOPMENTLABORATORY</div>
+            <div class="bebas ttree">JOINUNO</div>
+            
+          
+
+          <a class="pointer socIco" target="_blank" href="https://twitter.com/unovote"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+          <a class="pointer socIco" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
+          <a class="pointer socIco" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
             
         </div>
       
@@ -362,15 +369,16 @@
     </ul>
 </nav>
  -->
-    <div class="picaOjos">
-        <div class="logoX">
-        <span>be part of uno open government 
-          <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
-          <a class="pointer" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
-        </span>
-        </div>
+<!--     <div class="picaOjos">
+    <div class="logoX">
+    <span> 
+    <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+      <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
+      <a class="pointer" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
+    </span>
     </div>
-
+</div>
+ -->
     <script src="js/index.js"></script>
 
     <script type="text/javascript">

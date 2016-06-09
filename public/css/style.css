@@ -215,6 +215,31 @@ h3 {
   font-family: 'bebas neue';
 }
 
+.bebas {
+  font-family: 'bebas neue';
+}
+
+.tone{
+    font-size: 55px;
+    line-height: 55px;
+}
+.ttwo{
+    font-size: 34px;
+    line-height: 34px;
+}
+.ttree{
+    font-size: 55px;
+    line-height: 92px;
+}
+
+.socIco {
+  font-size: 40px;
+}
+
+.loginho:hover {
+  width: 70px;
+}
+
 #welcomeTo {
   margin-top: 78px;
   font-size: 52px;
@@ -326,6 +351,12 @@ h3 {
     width: 300px;
 }
 
+
+
+.menuTxt {
+  font-size: 25px;
+  font-family: 'bebas neue';
+}
 
 .form-horizontal .control-label {
     padding-top: 7px;
