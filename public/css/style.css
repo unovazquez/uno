@@ -326,6 +326,13 @@ h3 {
     width: 300px;
 }
 
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
 label {
     font-size: 0.875rem;
     color: #4d4d4d;
