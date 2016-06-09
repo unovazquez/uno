@@ -245,6 +245,10 @@ h3 {
   background: #FF80B2;
 }
 
+a:focus {
+    text-decoration: none;
+}
+
 .socIco {
   font-size: 40px;
 }
