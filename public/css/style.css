@@ -222,14 +222,27 @@ h3 {
 .tone{
     font-size: 55px;
     line-height: 55px;
+
 }
 .ttwo{
     font-size: 34px;
     line-height: 34px;
+ 
 }
 .ttree{
     font-size: 55px;
     line-height: 92px;
+
+}
+
+.codeuno {
+  border: 1px solid #FF80B2;
+  padding: 0 20px;
+}
+
+.codeuno:hover {
+  color: white;
+  background: #FF80B2;
 }
 
 .socIco {

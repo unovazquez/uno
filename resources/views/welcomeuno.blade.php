@@ -291,15 +291,15 @@
         </div>
         <div class="footerOne">
             
-            <div class="bebas tone">UNOCYBERNETICPARLIAMENT</div>
-            <div class="bebas ttwo">OPENSOURCEDEVELOPMENTLABORATORY</div>
-            <div class="bebas ttree">JOINUNO</div>
+            <div class="bebas tone">UNO CYBERNETIC PARLIAMENT</div>
+            <div class="bebas ttwo">OPENSOURCE DEVELOPMENT LABORATORY</div>
+            <div class="bebas ttree"><a class="pointer codeuno" target="_blank" href="https://github.com/unovazquez/uno" >CODE UNO</a></div>
             
           
-
-          <a class="pointer socIco" target="_blank" href="https://twitter.com/unovote"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-          <a class="pointer socIco" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
           <a class="pointer socIco" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+          <a class="pointer socIco" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
+          <a class="pointer socIco" target="_blank" href="https://twitter.com/unovote"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
             
         </div>
       
@@ -369,16 +369,15 @@
     </ul>
 </nav>
  -->
-<!--     <div class="picaOjos">
+<div class="picaOjos">
     <div class="logoX">
     <span> 
-    <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-      <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
-      <a class="pointer" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a class="pointer" target="_blank" href="https://twitter.com/unovote/"><img class="logoMenu" src="img/unoxLogo.png" alt="" /></a>
+     <!--  <a class="pointer" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
+     <a class="pointer" target="_blank" href="https://github.com/unovazquez/uno"><i class="fa fa-github" aria-hidden="true"></i></a> -->
     </span>
     </div>
 </div>
- -->
     <script src="js/index.js"></script>
 
     <script type="text/javascript">
