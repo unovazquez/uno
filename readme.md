@@ -1,3 +1,3 @@
-# UNO Framework
-Aqui explica lo que es uno, y crea un nuevo repo vacio de github
-UNO cybernetic parliament is an open source plataform that promotes open direct democracy
+# uno-cybernetic-parliament
+
+UNO Fundation promotes inclusive direct democracy via an open source cybernetic parliament platform. Welcome to the Revolution %). All in one. Expect us. 1x1>1+ %)
