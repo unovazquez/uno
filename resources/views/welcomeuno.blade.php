@@ -65,7 +65,7 @@
 </div>
 
 <div id="loginArea">
-  <div class="container blackBg">
+  <div class="container">
    <div class="logo">
      <img class="loginhoViews" src="img/unoxxLogo.png" alt="" />
  </div>
@@ -300,9 +300,13 @@
 
           <a class="pointer socIco" target="_blank" href="https://unoopengovernment.slack.com/"><i class="fa fa-slack" aria-hidden="true"></i> </a>
           <a class="pointer socIco" target="_blank" href="https://twitter.com/unovote"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-            
+          
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VQTQUASFWPDVW">
+            <input class="donateBtn" type="image" src="img/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          </form>
         </div>
-      
     </div>
 
 
