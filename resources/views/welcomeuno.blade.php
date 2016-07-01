@@ -278,21 +278,27 @@
 
             <div class="welcome">
             <h2>
-                <div id="biggerH2"> UNO OPEN GOVERNMENT</div>
+                <div id="biggerH2"> UNO</div>
+                <div id="biggerH2ss">Experimentación Democrática</div>
                 
             </h2>    
-                <h2>
-                    <div id="weWant">EXPECT US</div>
-                </h2>
-                <div align="center">
-                
+              
+                <div class="row" align="center">
+                  <p class="art">UNO es una Organización no gubernamental  descentralizada que propone la unión y organización del pueblo mexicano con la finalidad de actualizar nuestra forma de gobierno, modelo de participación ciudadana y democrática  a través del ejercicio pleno del Art.39 de la constitución mexicana.</p>
+                </div>
+                <div class="row" align="center">
+                    <h2 class="art39H">ARTICULO 39.</h2>
+                  <p class="art39 art">  
+                  LA SOBERANIA NACIONAL RESIDE ESENCIAL Y ORIGINARIAMENTE EN EL PUEBLO. TODO PODER PUBLICO DIMANA DEL PUEBLO Y SE INSTITUYE PARA BENEFICIO DE ESTE. <br> EL PUEBLO TIENE EN TODO TIEMPO EL INALIENABLE DERECHO DE ALTERAR O MODIFICAR LA FORMA DE SU GOBIERNO.
+                  </p>
                 </div>
             </div>
         </div>
         <div class="footerOne">
             
-            <div class="bebas tone">UNO CYBERNETIC PARLIAMENT</div>
-            <div class="bebas ttwo">OPENSOURCE DEVELOPMENT LABORATORY</div>
+            <div class="bebas tone">CODIGO UNO</div>
+            <div class="bebas ttwo">Plataforma cibernética de simulación democrática
+</div>
             <div class="bebas ttree"><a class="pointer codeuno" target="_blank" href="https://github.com/unovazquez/uno" >CODE UNO</a></div>
             
           

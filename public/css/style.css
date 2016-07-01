@@ -215,6 +215,13 @@ h3 {
   font-family: 'bebas neue';
 }
 
+#biggerH2ss {
+  line-height: 77px;
+  font-size: 52px;
+  font-family: 'bebas neue';
+}
+
+
 .bebas {
   font-family: 'bebas neue';
 }
@@ -425,6 +432,27 @@ textarea:focus, input:focus{
 .pink {
   color: #000 !important;
 }
+
+.row {
+  margin-top: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+   font-family: 'bebas neue';
+   padding: 15px;
+}
+.art39H {
+  font-size: 28px;
+}
+
+.art39 {
+  border: 1px solid black;
+  padding: 20px;
+}
+.art {
+font-family: 'bebas neue';
+color: black;
+}
+  
 
 input:-webkit-autofill {
     -webkit-text-fill-color: #000 !important;
