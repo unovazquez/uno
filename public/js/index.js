@@ -11,7 +11,7 @@ var experience = {
         this.canvas = document.querySelector('canvas');
 
         var ctx = this.canvas.getContext('2d'),
-            color = '#000';
+            color = '#FF80B2';
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
         this.canvas.style.display = 'block';

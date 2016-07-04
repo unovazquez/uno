@@ -7,8 +7,8 @@ html, body {
   border: 0;
   padding: 0;
   margin: 0;
-  background: #FF80B2;
-  cursor: url("../img/cursorBLK.png"), auto;
+  background: #fff;
+  cursor: url("../img/cursor.png"), auto;
 }
 
 ::-moz-selection { background: #FF80B2; }
@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   margin: 0;
   font-size: 20px;
-  color: #000;
+  color: #FF80B2;
 }
 
 .logo {
@@ -49,7 +49,7 @@ h1 {
 .welcome h2 {
   
   text-align: center;
-  color: #000;
+  color: #FF80B2;
   font-size: 80px;
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@ h1 {
 }
 
 h3 {
-  color: #000;
+  color: #FF80B2;
 }
 
 .sectionOne {
@@ -71,7 +71,7 @@ h3 {
   color: white;
   margin: 0 auto;
   width: 70%;
-  color: #000;
+  color: #FF80B2;
   text-decoration: none;
 }
 
@@ -82,8 +82,8 @@ h3 {
 
 .ezqUR {
   position: fixed;
-  border-left: 2px solid #000;
-  border-top: 2px solid #000;
+  border-left: 2px solid #FF80B2;
+  border-top: 2px solid #FF80B2;
   height: 80px;
   width: 80px;
   top: 15px;
@@ -94,16 +94,16 @@ h3 {
   position: fixed;
   right: 15px;
   top: 15px;
-  border-right: 2px solid #000;
-  border-top: 2px solid #000;
+  border-right: 2px solid #FF80B2;
+  border-top: 2px solid #FF80B2;
   height: 80px;
   width: 80px;
 }
 
 .ezqDR {
   position: fixed;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-right: 2px solid #FF80B2;
+  border-bottom: 2px solid #FF80B2;
   height: 80px;
   width: 80px;
   right: 15px;
@@ -114,8 +114,8 @@ h3 {
   position: fixed;
   bottom: 15px;
   left: 15px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-left: 2px solid #FF80B2;
+  border-bottom: 2px solid #FF80B2;
   height: 80px;
   width: 80px;
 }
@@ -141,7 +141,7 @@ h3 {
 
 .contacto {
   position: fixed;
-  color: #000;
+  color: #FF80B2;
   right: 50px;
   top: 50px;
 }
@@ -155,15 +155,15 @@ h3 {
  margin-top: 50px;
   text-align: center;
   width: 100%;
-  color: #000;
+  color: #FF80B2;
 }
 
 .footerOne a {
-  color: #000;
+  color: #FF80B2;
 }
 
 .pointer {
-  cursor: url("../img/cursorPBLK.png"), auto;
+  cursor: url("../img/cursorP.png"), auto;
   z-index: 10;
 }
 
@@ -172,7 +172,7 @@ h3 {
 }
 
 .menu a {
-  color: #000;
+  color: #FF80B2;
   text-decoration: none;
 }
 
@@ -184,7 +184,7 @@ h3 {
   position: fixed;
   top: 42px;
   left: 50px;
-  color: #000;
+  color: #FF80B2;
   z-index: 100;
 }
 
@@ -243,13 +243,13 @@ h3 {
 }
 
 .codeuno {
-  border: 1px solid #000;
+  border: 1px solid #FF80B2;
   padding: 0 20px;
 }
 
 .codeuno:hover {
   color: white;
-  background: #000;
+  background: #FF80B2;
 }
 
 a:focus {
@@ -310,7 +310,7 @@ a:focus {
    position: fixed;
    width: 100%;
    height: 100%;
-   background: #FF80B2;
+   background: #000;
    z-index: 100;
    transition: left 1s;
    left: -100%;
@@ -321,7 +321,7 @@ a:focus {
    position: absolute;
    right: 60px;
    top: 40px;
-   color: #000;
+   color: #FF80B2;
    font-size: 2em;
    z-index: 102;
 }
@@ -329,7 +329,18 @@ a:focus {
 .contactoClose:hover,
 .loginClose:hover,
 .registerClose:hover   {
-  cursor:  url("../img/cursorPBLK.png"), auto;
+  cursor:  url("../img/cursorP.png"), auto;
+}
+
+
+#textContacto {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #FF80B2;
+    font-weight: 800;
+    color: #FF80B2;
+    width: 100%;
+    background: black;
 }
 
 #inputContacto {
@@ -338,7 +349,7 @@ a:focus {
   border: none;
   color: white;
   box-shadow: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #FF80B2;
   width: 100%;
 }
 
@@ -347,26 +358,16 @@ a:focus {
   font-weight: 800;
   border-radius: 0 !important;
   border: none !important;
-  color: #000 !important;
+  color: #FF80B2 !important;
   box-shadow: none !important;
-  border-bottom: 1px solid #000 !important;
+  border-bottom: 1px solid #FF80B2 !important;
   width: 100% !important;
-}
-
-#textContacto {
-    box-shadow: none;
-    border: none;
-    border-bottom: 1px solid #000;
-    font-weight: 800;
-    color: #000;
-    width: 100%;
-    background: #FF80B2;
 }
 
 .picaOjos,
 .picaOjos a {
     font-size: 25px;
-    color: #000;
+    color: #FF80B2;
 } 
 .formContacto {
     margin-top: 150px;
@@ -399,7 +400,7 @@ label {
 }
 label {
     font-size: 1.2em;
-    color: #000;
+    color: #FF80B2;
     font-weight: 800;
 }
 
@@ -416,7 +417,7 @@ label {
   margin-right: auto;
   width: 100%;
   padding: 8px;
-  border: 1px solid #000;
+  border: 1px solid #FF80B2;
 }
 
 textarea:focus, input:focus{
@@ -430,7 +431,7 @@ textarea:focus, input:focus{
 }
 
 .pink {
-  color: #000 !important;
+  color: #FF80B2 !important;
 }
 
 .row {
@@ -445,17 +446,17 @@ textarea:focus, input:focus{
 }
 
 .art39 {
-  border: 1px solid black;
+  border: 1px solid #FF80B2;
   padding: 20px;
 }
 .art {
 font-family: 'bebas neue';
-color: black;
+color: #FF80B2;
 }
   
 
 input:-webkit-autofill {
-    -webkit-text-fill-color: #000 !important;
+    -webkit-text-fill-color: #FF80B2 !important;
 }
 
 
